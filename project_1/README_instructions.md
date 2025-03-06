@@ -8,7 +8,6 @@
 * `docker compose -f project_1/compose.yml up -d`
 * when in project_1 directory then `docker compose -f compose.yml up -d`
 
-* Move or copy the `example.ipynb` file and the entire `input` folder to the `mnt` folder
-  * e.g. `cp -r project_1/input/ project_1/example.ipynb ˇproject_1/mnt/`
+
 * Review Jupyter UI (localhost:8888), run the example notebook
 * Review Spark UI (localhost:4040)
