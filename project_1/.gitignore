@@ -1,2 +1,4 @@
 mnt/**/*
 !mnt/project_1.ipynb
+!mnt/output
+!mnt/output/**/*
