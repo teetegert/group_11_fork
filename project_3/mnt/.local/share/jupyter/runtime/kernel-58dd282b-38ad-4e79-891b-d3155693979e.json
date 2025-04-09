@@ -1,0 +1,13 @@
+{
+  "shell_port": 42617,
+  "iopub_port": 51093,
+  "stdin_port": 40037,
+  "control_port": 39881,
+  "hb_port": 33151,
+  "ip": "127.0.0.1",
+  "key": "69aed79a-8a6e877465dfd944fb15fc2c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/p_3_graphframes.ipynb"
+}
