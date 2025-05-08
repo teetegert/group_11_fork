@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  pyspark:
+    build: .
+    container_name: sparkml_project4
+    user: root
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "8888:8888"   # Jupyter Notebook UI
+      - "4040:4040"   # Spark UI
+    volumes:
+      - ../.data:/home/jovyan/lab_data         # Shared data directory
+      - ./notebooks:/home/jovyan/notebooks     # Notebooks (create this folder if not there)
+      - ./model:/home/jovyan/model             # For saving trained models
+    environment:
+      - PYSPARK_PYTHON=python3
